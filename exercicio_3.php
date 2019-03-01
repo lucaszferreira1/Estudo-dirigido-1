@@ -1,9 +1,9 @@
 <?php
 
 print "Qual o seu salário:";
-$salario=fgets(STDIN);
+$salario=(float)fgets(STDIN);
 print "Qual a porcentagem de aumento:";
-$aumento=fgets(STDIN);
+$aumento=(float)fgets(STDIN);
 
 $dinheiroaumento= ($salario*($aumento/100));
 $aumentoreal=$dinheiroaumento+$salario;
