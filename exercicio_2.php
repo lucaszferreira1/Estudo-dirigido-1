@@ -1,13 +1,13 @@
 <?php
 
 print "Quantos dias:";
- $dias=fgets(STDIN);
+ $dias=(int)fgets(STDIN);
 print "Quantas horas:";
- $horas=fgets(STDIN);
+ $horas=(int)fgets(STDIN);
 print "Quantos minutos:";
- $minutos=fgets(STDIN);
+ $minutos=(int)fgets(STDIN);
 print "Quantos segundos:";
- $segundos=fgets(STDIN);
+ $segundos=(int)fgets(STDIN);
 
 $horasfinal= ($dias*24)+$horas;
 $minutosfinal= ($horasfinal*60)+$minutos;
