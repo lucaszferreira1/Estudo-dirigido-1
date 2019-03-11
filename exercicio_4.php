@@ -1,12 +1,9 @@
 <?php
-
 print "Qual o preço da mercadoria:";
-  $mercadoria=fgets(STDIN);
+  $mercadoria=(float)fgets(STDIN);
 print "Quanto de desconto:";
-  $desconto=fgets(STDIN);
-
+  $desconto=(float)fgets(STDIN);
 $precodesconto=($mercadoria*($desconto/100));
 $precofinal=$mercadoria-$precodesconto;
-
-print "O desconto foi de $precodesconto";
-print "O preço final é de $precofinal";
+print "O desconto foi de $precodesconto Reais \n";
+print "O preço final é de $precofinal Reais \n";
