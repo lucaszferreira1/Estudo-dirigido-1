@@ -6,4 +6,4 @@ print "Quanto de desconto:";
 $precodesconto=($mercadoria*($desconto/100));
 $precofinal=$mercadoria-$precodesconto;
 print "O desconto foi de $precodesconto Reais \n";
-print "O preço final é de $precofinal Reais \n";
+print "O preço final é de $precofinal Reais  \n";
