@@ -30,6 +30,10 @@ if ($metodo==3){
     $faltou= $totallitros%($latarendimento);
     $ngaloes=ceil($faltou/$galaorendimento);
     $nlatas=ceil($nlatas);
-    print "$nlatas latas - $ngaloes galoes";}
 
+    $precolatas=$nlatas*80;
+    $precogaloes=$ngaloes*25;
+    $precototal=$precogaloes+$precolatas;
 
+    print "$nlatas latas - $ngaloes galoes";
+    print "O preço total é $precototal reais";
